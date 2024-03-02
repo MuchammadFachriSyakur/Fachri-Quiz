@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.btn{
+  box-sizing: border-box;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.fullcontainer{
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  box-sizing: border-box;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.page{
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.page .Picture{
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+  border-radius: 5px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.page .panduan{
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.formulirNama{
+  box-sizing: border-box;
+  width: 85%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 25px;
+  gap: 15px;
+}
+.formulirNama #username{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+}
+.formulirNama .mulai{
+  box-sizing: border-box;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: lowercase;
+  background-color: black;
+  color: white;
+  transition: all .3s ease-in-out;
+}
+.formulirNama .mulai:hover{
+  background-color: gray;
+}
+.medsos{
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 28px;
+  gap: 12px;
+}
+.medsos i{
+  font-size: 32px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+.medsos i:hover{
+  transform: translateY(-12px);
+}

@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .user{
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 800px;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 12px;
+  text-align: center;
+  padding: 4px 12px;
+}
+.container .text_hasil{
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 600px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  text-align: center;
+  padding: 4px 12px;
+}
+.container .hasil{
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 800px;
+  font-size: 34px;
+  font-weight: 800;
+  margin-bottom: 12px;
+  text-align: center;
+  padding: 4px 12px;
+}
+.container .ulangi{
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 600px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  text-align: center;
+  padding: 4px 12px;
+  color: rgb(0,0,0,0.7);
+}
+.container .saying{
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 300px;
+  height: 175px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.medsos{
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 28px;
+  margin-bottom: 24px;
+  gap: 12px;
+}
+.medsos i{
+  font-size: 32px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+.medsos i:hover{
+  transform: translateY(-12px);
+}
